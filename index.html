@@ -107,7 +107,234 @@
         </section>
         <!-- banner end -->
     </header>
-    <main>
+    <main class="container mx-auto">
+        <!-- deal of the day start -->
+        <section class="lg:mt-36 lg:mx-60">
+            <div class="flex flex-col lg:flex-row justify-between lg:py-14">
+                <div class="flex-1">
+                    <h1 class="text-3xl font-extrabold">Deal of the day</h1>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="flex-1 flex lg:justify-end ">
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:15;"></span>:
+                          </span>
+                          days
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:10;"></span>:
+                          </span>
+                          hours
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:24;"></span>:
+                          </span>
+                          min
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:44;"></span>
+                          </span>
+                          sec
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <!-- cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- first card -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="assets/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title p-3 drop-shadow-xl rounded-lg bg-slate-100">12.90$ - 18.85$</h2>
+                      <p>Apple</p>
+                      <div class="rating rating-lg rating-half lg:my-8">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <div class="card-actions">
+                        <button class="btn text-red-400">Details</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- second card -->
+                  <div class="card  bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="assets/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title p-3 drop-shadow-xl rounded-lg bg-slate-100">12.90$ - 18.85$</h2>
+                      <p>Orange</p>
+                      <div class="rating rating-lg rating-half lg:my-8">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <div class="card-actions">
+                        <button class="btn text-red-400">Details</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- third card -->
+                  <div class="card  bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="assets/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title p-3 drop-shadow-xl rounded-lg bg-slate-100">12.90$ - 18.85$</h2>
+                      <p>Red Dragon</p>
+                      <div class="rating rating-lg rating-half lg:my-8">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <div class="card-actions">
+                        <button class="btn text-red-400">Details</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- forth card -->
+                  <div class="card  bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="assets/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title p-3 drop-shadow-xl rounded-lg bg-slate-100">12.90$ - 18.85$</h2>
+                      <p>Banana</p>
+                      <div class="rating rating-lg rating-half lg:my-8">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" checked />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-1" />
+                        <input type="radio" name="rating-10" class="bg-red-400 mask mask-star-2 mask-half-2" />
+                      </div>
+                      <div class="card-actions">
+                        <button class="btn text-red-400">Details</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="md:my-20 flex justify-center">
+              <button class="btn bg-red-400 text-white">Shop All</button>
+            </div>
+        </section>
+        <!-- deal of the day end -->
+
+        <!-- team section start-->
+        <section>
+          <div class="bg-local bg-center bg-no-repeat bg-cover" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/images/team.png)">
+            <h1 class="text-6xl font-extrabold text-white text-center pt-20">Meet the team section</h1>
+            <p class="text-white text-xl text-center max-w-5xl mx-auto pt-14">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            <!--team card  -->
+          <div class="grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10">
+            <!-- first card -->
+            <div class="card bg-transparent shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="assets/images/member1.png" alt="" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center text-white">
+                <h2 class="card-title">Awlad Hossain</h2>
+                <p>Fruits Expert</p>
+                <div class="card-actions pt-4">
+                  <i class="fa-brands fa-square-facebook bg-red-500 rounded-full p-2"></i>
+                  <i class="fa-brands fa-twitter bg-red-500 rounded-full p-2"></i>
+                  <i class="fa-brands fa-linkedin bg-red-500 rounded-full p-2"></i>
+
+                </div>
+              </div>
+            </div>
+            <!-- second card -->
+            <div class="card bg-transparent shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="assets/images/member2.png" alt="" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center text-white">
+                <h2 class="card-title">Safia Chowdhury</h2>
+                <p>Fruits Expert</p>
+                <div class="card-actions pt-4">
+                  <i class="fa-brands fa-square-facebook bg-red-500 rounded-full p-2"></i>
+                  <i class="fa-brands fa-twitter bg-red-500 rounded-full p-2"></i>
+                  <i class="fa-brands fa-linkedin bg-red-500 rounded-full p-2"></i>
+
+                </div>
+              </div>
+            </div>
+            <!-- third card -->
+            <div class="card bg-transparent shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="assets/images/member3.png" alt="" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center text-white">
+                <h2 class="card-title">Rokib Hossain</h2>
+                <p>Fruits Expert</p>
+                <div class="card-actions pt-4">
+                  <i class="fa-brands fa-square-facebook bg-red-500 rounded-full p-2"></i>
+                  <i class="fa-brands fa-twitter bg-red-500 rounded-full p-2"></i>
+                  <i class="fa-brands fa-linkedin bg-red-500 rounded-full p-2"></i>
+
+                </div>
+              </div>
+            </div>
+            <!-- fourth card -->
+            <div class="card bg-transparent shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="assets/images/member4.png" alt="" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center text-white">
+                <h2 class="card-title">Chaity</h2>
+                <p>Fruits Expert</p>
+                <div class="card-actions pt-4">
+                  <i class="fa-brands fa-square-facebook bg-red-500 rounded-full p-2"></i>
+                  <i class="fa-brands fa-twitter bg-red-500 rounded-full p-2"></i>
+                  <i class="fa-brands fa-linkedin bg-red-500 rounded-full p-2"></i>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+        </section>
+        <!-- team section end -->
+
+        <!-- why  -->
 
     </main>
     <footer>
